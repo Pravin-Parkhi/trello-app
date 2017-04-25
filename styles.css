@@ -1,0 +1,82 @@
+/******************************************************************************
+ *  Global                                                                    *
+ ******************************************************************************/
+
+html {
+    font-size: 14px;
+}
+body {
+    margin: 0px;
+    background-color: #026AA7;
+}
+.u-header {
+    height: 50px;
+    background-color: black;
+    position: relative
+}
+.u-list-button {
+    width: auto;
+    height: 30px;
+    float: right;
+    margin: 10px;
+}
+.u-card-button {
+    width: auto;
+    height: 30px;
+    margin: 10px;
+    bottom: 0px;
+}
+.u-delete-button {
+    float: right;
+    background-color: #EB5A46;
+    color: #ffffff;
+    border: 0px;
+    padding: 3px 8px;
+    border-top-right-radius: 5px;
+}
+.u-save-button {
+    float: right;
+    background-color: #5AAC49;
+    color: #ffffff;
+    border: 0px;
+    padding: 3px 8px;
+    margin-right: 2px;
+}
+.u-card-input {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.card-content {
+    font-size: 14px;
+    color: royalblue;
+    padding: 10px 5px 5px 5px;
+    font-weight: 600;
+}
+
+/******************************************************************************
+ *  LIST & CARD                                                               *
+ ******************************************************************************/
+
+.list-wrapper {
+    height: 600px;
+    position: absolute;
+    display: inline-flex;
+}
+.my-list {
+    height: 500px;
+    width: 300px;
+    background-color: #E2E4E6;
+    margin: 5px;
+    float: left;
+    border-radius: 10px;
+    border: 2px solid #F5D3CE;
+    overflow-y: auto;
+}
+.my-card {
+    width: 280px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
